@@ -1,6 +1,6 @@
 # AutoArmor Pro Max (Version 1.0)
 
-AutoArmor Pro Max is a Python script that analyzes and visualizes microservice architectures in containerized applications. It extracts and decompiles Docker images to find the corresponding JAR files and the `application.yml` files within. AA Pro Max then processes this information to build a directed graph of microservice dependencies.
+AutoArmor Pro Max is a Python script that analyzes and visualizes microservice architectures in containerized applications. It extracts and decompiles Docker images to find the corresponding JAR files and the `application.yml` files within. AA Pro Max then processes this information to build a directed graph of microservice dependencies. The AutoArmor Pro Max script also constructs Kubernetes network policies based on the dependency graph generated, which represents the communication relationships between microservices in the cluster.
 
 ## Prerequisites
 
